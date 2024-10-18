@@ -8,7 +8,7 @@ import facialExpressions from "../constants/facialExpressions";
 import visemesMapping from "../constants/visemesMapping";
 import morphTargets from "../constants/morphTargets";
 
-const AVATAR_PATH = '/models/saad_avaturn.glb';
+const AVATAR_PATH = '/models/saad.glb';
 const ANIMATIONS_PATH = '/models/animations.glb';
 
 export function Avatar(props) {
@@ -179,3 +179,5 @@ export function Avatar(props) {
 }
 
 useGLTF.preload(AVATAR_PATH);
+
+

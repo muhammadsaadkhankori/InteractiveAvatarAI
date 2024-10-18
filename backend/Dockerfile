@@ -1,20 +1,18 @@
-# Base image
+# Use a node image
 FROM node:18-alpine
 
-# Set the working directory
+# Set working directory
 WORKDIR /app
 
-# Copy the package.json and yarn.lock files to install dependencies
+# Copy package.json and install dependencies
 COPY package.json yarn.lock ./
-
-# Install dependencies
 RUN yarn install
 
 # Copy the rest of the backend code
 COPY . .
 
-# Expose the port where your backend runs (e.g., 5000)
+# Expose the port the backend runs on (default 3000)
 EXPOSE 3000
 
-# Command to run the backend server
-CMD ["yarn", "run", "dev"]
+# Command to run the backend
+CMD ["yarn", "start"]
