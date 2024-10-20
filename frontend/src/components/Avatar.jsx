@@ -8,7 +8,7 @@ import facialExpressions from "../constants/facialExpressions";
 import visemesMapping from "../constants/visemesMapping";
 import morphTargets from "../constants/morphTargets";
 
-const AVATAR_PATH = '/models/saad.glb';
+const AVATAR_PATH = '/models/model.glb';
 const ANIMATIONS_PATH = '/models/animations.glb';
 
 export function Avatar(props) {
