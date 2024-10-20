@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "soundFile": "/mnt/c/Users/Muhammad.Saad/Desktop/digital_being/InteractiveAvatarAI/backend/audios/message_0.wav",
+    "duration": 2.32
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.12, "value": "X" },
+    { "start": 0.12, "end": 0.19, "value": "E" },
+    { "start": 0.19, "end": 0.25, "value": "F" },
+    { "start": 0.25, "end": 0.39, "value": "B" },
+    { "start": 0.39, "end": 0.46, "value": "C" },
+    { "start": 0.46, "end": 0.60, "value": "E" },
+    { "start": 0.60, "end": 0.67, "value": "F" },
+    { "start": 0.67, "end": 0.74, "value": "E" },
+    { "start": 0.74, "end": 0.82, "value": "A" },
+    { "start": 0.82, "end": 0.90, "value": "C" },
+    { "start": 0.90, "end": 0.97, "value": "F" },
+    { "start": 0.97, "end": 1.04, "value": "E" },
+    { "start": 1.04, "end": 1.39, "value": "B" },
+    { "start": 1.39, "end": 1.46, "value": "C" },
+    { "start": 1.46, "end": 1.53, "value": "G" },
+    { "start": 1.53, "end": 1.81, "value": "B" },
+    { "start": 1.81, "end": 1.88, "value": "C" },
+    { "start": 1.88, "end": 2.02, "value": "B" },
+    { "start": 2.02, "end": 2.32, "value": "X" }
+  ]
+}
